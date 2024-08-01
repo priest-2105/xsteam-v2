@@ -26,7 +26,6 @@ const Layout = (props) => {
         <Navbar className={classes.navbar}>
             <Navbar.Brand className={classes.nav_logo}>
               <Image src={Logo} alt="logo"></Image>
-              <Image src={LogoText} alt="logo text"></Image>
             </Navbar.Brand>
         </Navbar>
         <div className={classes.auth_container}>

@@ -47,10 +47,6 @@ I used Next.js framework to bootstrap this project because of the limitless func
 - Access to 3rd party libraries that make the app much experience better like Swiper.js for the sliders and react-bootstrap for the app layout and modals.
 - Css modules which prevent clashing of classnames around components therefore avoiding unwanted results
 
-**Challenges**
-
-The challenge i faced while building was making the application very performant and creating a good functioning loading state before the content displays.
-
 **Features to be added**
 
 I am yet to arrive at a version 1.0 but i hope to add this features in order to arrive at a steady working version

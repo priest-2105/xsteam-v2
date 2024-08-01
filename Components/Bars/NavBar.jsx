@@ -49,9 +49,9 @@ const NavBar = () => {
         <Nav.Link className={`${classes.nav_link} ms-3`}>
           <Image src={avatar1} alt="Avatar" width={32} height={32}></Image>
         </Nav.Link>
-        <Nav.Link className={`${classes.nav_link} ${classes.nav_name}`}>
+        {/* <Nav.Link className={`${classes.nav_link} ${classes.nav_name}`}>
           Eniola Codes
-        </Nav.Link>
+        </Nav.Link> */}
       </Nav>
       <Nav className={classes.nav_hamburger}>
         <div

@@ -27,7 +27,7 @@ const sideBarOpen = showSideBar ? classes.sidebaropen : '';
         <div className={classes.logo_div}>
           <a href="/home">
             <span><Image src={Logo} alt="logo"></Image></span>
-            <span><Image src={LogoText} alt="logo text"></Image></span>
+            
           </a>
         </div>
 
@@ -108,7 +108,7 @@ const sideBarOpen = showSideBar ? classes.sidebaropen : '';
                     width={24}
                     height={24}
                   ></Image>
-                  <span>Eniola codes</span>
+                 
                 </a>
               </li>
             </ul>
