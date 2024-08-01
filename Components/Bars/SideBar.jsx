@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link';
 import classes from "../../styles/BarsStyle/SideBar.module.css";
 import LogoText from "../../public/Assets/Logo/LogoText.svg";
-import Logo from "../../public/Assets/Logo/Logo.svg";
+import Logo from "../../public/Assets/Logo/Logo.png";
 import avatar1 from "../../public/Assets/Avatars/avataaars(1).svg";
 import { BiMoviePlay } from "react-icons/bi";
 import {

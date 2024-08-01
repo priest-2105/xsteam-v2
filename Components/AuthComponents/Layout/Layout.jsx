@@ -7,7 +7,7 @@ import classes from "../../../styles/AuthStyle/Layout.module.css";
 import movieImage from "../../../public/Assets/Images/authPage-image.webp";
 import { Navbar } from "react-bootstrap";
 import LogoText from "../../../public/Assets/Logo/LogoText.svg";
-import Logo from "../../../public/Assets/Logo/Logo.svg";
+import Logo from "../../../public/Assets/Logo/Logo.png";
 
 const Layout = (props) => {
   const router = useRouter();

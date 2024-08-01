@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useDispatch } from "react-redux";
 import { uiActions } from "../../store/uiStore";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
-import Logo from "../../public/Assets/Logo/Logo.svg";
+import Logo from "../../public/Assets/Logo/Logo.png";
 import classes from "../../styles/BarsStyle/NavBar.module.css";
 import avatar1 from "../../public/Assets/Avatars/avataaars(1).svg";
 import { FaBell } from "react-icons/fa";
