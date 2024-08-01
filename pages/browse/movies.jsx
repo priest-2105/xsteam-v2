@@ -19,7 +19,13 @@ const Home = (props) => {
   content = (
     <SwiperUiHero>
       {/* mapping and displaying the section components which contains the layout */}
-      {props.dataResls.id}
+      {props.dataResults.map((movieDetails) => (
+        <SwiperSlide className={heroClasses.swiperslide} key={movieDetails.id}>
+          <HeroSectionComponent
+            backdrop_path={movieDetails.backdrop_path}
+            title={movieDetails.title}
+            genre_ids={movieDetails.genre_ids}
+            id={movieDetails.id}
             release_date={movieDetails.release_date}
           />
         </SwiperSlide>
